@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/teal_700"
+    tools:context=".Fragments.CourseFragment">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="3dp"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="10dp">
+
+ <androidx.appcompat.widget.SearchView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:gravity="right"
+     android:id="@+id/search"/>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        tools:listitem="@layout/item"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerview"/>
+
+</LinearLayout>

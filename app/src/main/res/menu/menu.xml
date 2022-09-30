@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/course"
+        android:title="All Course" />
+
+<!--    <item-->
+<!--        android:id="@+id/settings"-->
+<!--        android:title="Settings" />-->
+
+<!--    Keval setting ko yaha se hataya hai main activity se nahi-->
+
+    <item
+        android:id="@+id/add_course"
+        android:title="Add Course" />
+</menu>

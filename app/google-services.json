@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "310642256617",
+    "firebase_url": "https://course-60d1b-default-rtdb.firebaseio.com",
+    "project_id": "course-60d1b",
+    "storage_bucket": "course-60d1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310642256617:android:42b7f473e7e84828d75e78",
+        "android_client_info": {
+          "package_name": "com.publicarea.course"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310642256617-538mu34esq3su0ik8j8af29ao7um7lio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYqfuTtaQo379Vf9ObLhAqu1cypHLpbP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310642256617-538mu34esq3su0ik8j8af29ao7um7lio.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
